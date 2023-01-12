@@ -58,15 +58,15 @@ if (n < 0) {
     console.log("Task 5: There is no degree to which to raise the number 3");
   } else if (n % 3 === 0) {
     let degree = 0;
-    let isCndition = false;
+    let isCondition = false;
     for (let i = 3; i <= n; i *= 3) {
       degree++;
       if (i === n) {
-        isCndition = true;
+        isCondition = true;
         break;
       }
     }
-    if (isCndition) {
+    if (isCondition) {
       console.log(`Task 5: 3^${degree} = ${n}`);
     } else {
       console.log("Task 5: There is no degree to which to raise the number 3");
